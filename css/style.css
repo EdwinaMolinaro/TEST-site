@@ -1,0 +1,106 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Slabo 27px', serif;
+}
+
+/*BUTTON ACCEUIL poursuivre*/
+
+.accueil{
+  background: url("../img/tower.jpg");
+  opacity: 0.7;
+  filter: contrast(1.90) sepia(0.6);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  margin: 0;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bouton-accueil{
+  background-color: #E7FFFF;
+  border-radius: 6px;
+  border: solid 2px #eeeeee;
+  color: #595257;
+  font-size: 50px;
+  height:10%;
+  transition: all 1.5s;
+
+}
+
+.bouton-accueil:hover{
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: inherit;
+  color: #595257;
+  border: none;
+}
+
+/*END BUTTON ACCEUIL POURSUIVRE*/
+
+.présentation{
+  text-align: center;
+  margin-top: 1.5%;
+  font-size: 25px;
+}
+
+.présentation-para{
+  text-align: center;
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+.services{
+  margin-top: 15%;
+  font-size: 16px;
+}
+
+.pictures{
+  margin-top: 12%;
+  font-size: 16px;
+}
+
+.pictures p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pictures-RD{
+  width: 95%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.5s;
+}
+
+.pictures-RD:hover{
+  width: 100%;
+  cursor: pointer;
+}
+
+.BLOCK{
+  margin-top: 12%;
+  font-size: 16px;
+  color: black;
+}
+
+.block1{
+  background-color: #76706D;
+}
+
+.block2{
+  background-color: #FFFFF8;
+}
+
+.block3{
+  background-color: #76706D;
+}
