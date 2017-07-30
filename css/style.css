@@ -1,6 +1,7 @@
 html, body{
   margin: 0;
   padding: 0;
+  background-color: #eeeeef;
   font-family: 'Slabo 27px', serif;
 }
 
@@ -83,8 +84,9 @@ html, body{
 }
 
 .pictures-RD:hover{
-  width: 100%;
+  transform: scale(1.2,1.2);
   cursor: pointer;
+  transition: all 1s;
 }
 
 .BLOCK{
