@@ -78,6 +78,7 @@ h1:after {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: all 0.5s;
+  opacity: 0.7;
 }
 
 .pictures-RD:hover{
@@ -85,12 +86,14 @@ h1:after {
   cursor: pointer;
   transition: all 0.2s;
   box-shadow: 5px 7px 5px gray;
+  opacity: 1;
 }
 
 .BLOCK{
   margin-top: 12%;
   font-size: 16px;
   color: black;
+  height: 100vh;
 }
 
 .block1{
@@ -98,9 +101,27 @@ h1:after {
 }
 
 .block2{
-  background-color: #FFFFF8;
+  background-color: #eeeeee;
 }
 
 .block3{
   background-color: #76706D;
+}
+
+h3{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.clique-me{
+  margin-top: 50%;
+  text-align: center;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.clique-me:hover{
+  transform: rotate(-360deg);
+  transition: all 1.2s;
+
 }
