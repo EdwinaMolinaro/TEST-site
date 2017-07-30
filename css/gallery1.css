@@ -15,6 +15,13 @@ h1 {
 	color: rgba(0,0,55,0.5);
 }
 
+
+h1:after {
+	content: "GALLERY";
+	position: absolute; left: 10px; top: 5px;
+	color: rgba(255,0,0,0.5);
+}
+
 .arrow_center{
   border-top: 1px solid;
   border-bottom: 1px solid;
@@ -31,12 +38,6 @@ h1 {
   transform: scale(1.2,1.2);
   transition: all 1s;
   cursor: pointer;
-}
-
-h1:after {
-	content: "GALLERY";
-	position: absolute; left: 10px; top: 5px;
-	color: rgba(255,0,0,0.5);
 }
 
 .pictures{
