@@ -81,9 +81,10 @@ h1:after {
 }
 
 .pictures-RD:hover{
-  transform: scale(1.2,1);
+  /*transform: scale(1.2,1);*/
   cursor: pointer;
-  transition: all 1s;
+  transition: all 0.2s;
+  box-shadow: 5px 7px 5px gray;
 }
 
 .BLOCK{
