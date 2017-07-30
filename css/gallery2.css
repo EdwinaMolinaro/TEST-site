@@ -29,12 +29,12 @@ h1:after {
   text-align: center;
 }
 
-.arrow{
+.arrow2{
   width: 200px;
   transition: all 1s;
 }
 
-.arrow:hover{
+.arrow2:hover{
   transform: scale(1.2,1.2);
   transition: all 1s;
   cursor: pointer;
@@ -54,6 +54,7 @@ text-decoration: none;
 a:hover{
   color:black;
 }
+
 
 .pictures{
   text-align: center;
