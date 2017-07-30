@@ -48,28 +48,46 @@ h1:after {
 .présentation{
   text-align: center;
   margin-top: 1.5%;
-  font-size: 25px;
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 .présentation-para{
   text-align: center;
   margin-top: 5%;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .services{
   margin-top: 15%;
-  font-size: 18px;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: solid 1px;
+}
+
+.para-services{
+  margin-top: 21%;
+  font-size: 15px;
 }
 
 .pictures{
+  text-align: center;
   margin-top: 12%;
-  font-size: 18px;
+}
+
+.pictures-title{
+  text-align: center;
+  margin-top: 12%;
+  font-size: 25px;
+  border-bottom: solid 1px;
 }
 
 .pictures p{
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
 }
 
