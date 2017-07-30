@@ -17,7 +17,7 @@ h1 {
 
 
 h1:after {
-	content: "JTELEC";
+	content: "J TELEC";
 	position: absolute; left: -5px; top: -5px;
 	color: rgba(0,0,0,0.8);
 }
