@@ -212,7 +212,7 @@ a:visited{
 
 @media screen and (max-width: 768px){
   .scroll-arrow{
-    margin-top: 0;
+    margin-top: 60%;
   }
 }
 

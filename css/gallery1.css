@@ -23,6 +23,12 @@ h1:after {
 	color: rgba(0,0,0,0.8);
 }
 
+@media screen and (max-width: 768px){
+  h1{
+    font-size: 60px;
+  }
+}
+
 .arrow_center{
   border-top: 1px solid #C6C6C7;
   border-bottom: solid 1px #C6C6C7;
