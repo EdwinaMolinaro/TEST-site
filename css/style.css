@@ -134,7 +134,7 @@ h2 {
   /*transform: scale(1.2,1);*/
   cursor: pointer;
   transition: all 0.2s;
-  box-shadow: 5px 7px 5px gray;
+  box-shadow: 5px 7px 5px #876663;
   opacity: 1;
   transform: rotate(-2deg);
 }

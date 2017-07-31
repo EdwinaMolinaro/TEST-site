@@ -1,5 +1,6 @@
 body, html{
   background-color: #eeeeef;
+  font-family: 'Slabo 27px', serif;
 }
 
 .header{
@@ -10,7 +11,7 @@ body, html{
 h1 {
 	display: inline;
 	position: relative;
-	font: 150px Helvetica, Sans-Serif;
+	font: 150px 'Slabo 27px', Sans-Serif;
 	letter-spacing: 5px;
 	color: rgba(147,96,91,0.8);
 }
@@ -24,8 +25,8 @@ h1:after {
 
 
 .arrow_center{
-  border-top: 1px solid;
-  border-bottom: 1px solid;
+  border-top: 1px solid #C6C6C7;
+  border-bottom: solid 1px #C6C6C7;
   margin-top: 3%;
   text-align: center;
 }
