@@ -5,7 +5,7 @@ html, body{
   font-family: 'Slabo 27px', serif;
 }
 
-/*BUTTON ACCEUIL poursuivre*/
+/* ACCEUIL poursuivre*/
 
 h1 {
 	display: inline;
@@ -17,7 +17,7 @@ h1 {
 
 
 h1:after {
-	content: "J TELEC";
+	content: "JTELEC";
 	position: absolute; left: -5px; top: -5px;
 	color: rgba(0,0,0,0.8);
 }
@@ -43,7 +43,8 @@ h1:after {
 }
 
 
-/*END BUTTON ACCEUIL POURSUIVRE*/
+/*END ACCEUIL POURSUIVRE*/
+
 
 .présentation{
   text-align: center;
@@ -68,24 +69,50 @@ h2 {
   margin-top: 15%;
   font-size: 25px;
   text-align: center;
-  border-bottom: solid 1px;
+  border-bottom: solid 1px #C6C6C7;
 }
 
 .para-services{
-  margin-top: 21%;
+  margin-top: 17.1%;
   font-size: 15px;
 }
+/*fin service*/
+
+.orga-title{
+  margin-top: 45%;
+  font-size: 25px;
+  text-align: center;
+  border-bottom: solid 1px #C6C6C7;
+}
+
+.para-orga{
+  margin-top: 25%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.first{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.Second{
+  text-align: center;
+}
+
+/*fin organigramme*/
 
 .pictures{
   text-align: center;
-  margin-top: 12%;
+  margin-top: 15%;
 }
 
 .pictures-title{
   text-align: center;
-  margin-top: 12%;
+  margin-top: 40%;
   font-size: 25px;
-  border-bottom: solid 1px;
+  border-bottom: solid 1px #C6C6C7;
 }
 
 .pictures p{
@@ -119,7 +146,7 @@ h2 {
 }
 
 .block1{
-  background-color: #76706D;
+  background-color: #C6C6C7;
 }
 
 .block2{
@@ -127,7 +154,7 @@ h2 {
 }
 
 .block3{
-  background-color: #76706D;
+  background-color: #C6C6C7;
 }
 
 h3{
