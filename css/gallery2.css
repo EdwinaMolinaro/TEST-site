@@ -12,15 +12,16 @@ h1 {
 	position: relative;
 	font: 150px Helvetica, Sans-Serif;
 	letter-spacing: 5px;
-	color: rgba(0,0,55,0.5);
+	color: rgba(147,96,91,0.8);
 }
 
 
 h1:after {
 	content: "GALLERY";
 	position: absolute; left: 10px; top: 5px;
-	color: rgba(255,0,0,0.5);
+	color: rgba(0,0,0,0.8);
 }
+
 
 .arrow_center{
   border-top: 1px solid;
