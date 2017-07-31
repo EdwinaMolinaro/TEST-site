@@ -204,6 +204,12 @@ a:visited{
   transition: all 1s;
 }
 
+@media screen and (max-width: 768px){
+  .scroll-arrow{
+    margin-top: 0;
+  }
+}
+
 .menu li {
   list-style: none;
 }
