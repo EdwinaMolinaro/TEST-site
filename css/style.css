@@ -12,7 +12,7 @@ h1 {
 	position: relative;
 	font: 150px 'Slabo 27px', serif;
 	letter-spacing: px;
-	color: rgba(247,119,119,0.8);
+	color: rgba(147,96,91,0.8);
 }
 
 
@@ -74,7 +74,7 @@ h2 {
 
 .para-services{
   margin-top: 17.1%;
-  font-size: 15px;
+  font-size: 16px;
 }
 /*fin service*/
 
@@ -87,14 +87,15 @@ h2 {
 
 .para-orga{
   margin-top: 25%;
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
 }
 
 .first{
   margin-top: 5%;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .Second{
@@ -172,6 +173,7 @@ h3{
 .clique-me:hover{
   transform: rotateX(-360deg);
   transition: all 1.2s;
+
 }
 
 a{
@@ -181,4 +183,12 @@ text-decoration: none;
 
 a:hover{
   color:black;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+.contact{
+  margin-top: 10%;
 }
