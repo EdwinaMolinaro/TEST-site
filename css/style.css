@@ -140,7 +140,7 @@ h2 {
   /*transform: scale(1.2,1);*/
   cursor: pointer;
   transition: all 0.2s;
-  box-shadow: 5px 7px 5px #876663;
+  box-shadow: 5px 7px 5px gray;
   opacity: 1;
   transform: rotate(-2deg);
 }
@@ -148,7 +148,7 @@ h2 {
 .BLOCK{
   margin-top: 12%;
   font-size: 16px;
-  color: black;
+  color: #303030;
   height: 100vh;
 }
 
@@ -174,12 +174,18 @@ h3{
   text-align: center;
   font-size: 35px;
   cursor: pointer;
+  color: #303030;
 }
 
 .clique-me:hover{
   transform: rotateX(-360deg);
   transition: all 1.2s;
+}
 
+@media screen and (max-width: 768px){
+  .clique-me{
+    margin-top: -5%;
+  }
 }
 
 a{
@@ -216,7 +222,7 @@ a:visited{
 
 @media screen and (max-width: 768px){
   .scroll-arrow{
-    margin-top: 10%;
+    margin-top: -5%;
   }
 }
 
@@ -248,5 +254,5 @@ a:visited{
 .zone{
   margin-top: 15%;
   font-size: 20px;
-  text-decoration:  underline;
+
 }

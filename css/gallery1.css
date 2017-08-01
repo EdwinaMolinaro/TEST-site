@@ -23,11 +23,40 @@ h1:after {
 	color: rgba(0,0,0,0.8);
 }
 
+/*PHONE*/
 @media screen and (max-width: 768px){
-  h1{
-    font-size: 60px;
+  h1, h1:after{
+    display: none;
+  }
+  .arrow, .site-accueil {
+    display: none;
   }
 }
+
+/*PC*/
+@media screen and (min-width: 768px){
+  .gallery, .phone-accueil{
+    display: none;
+  }
+  .precedent, .suivant{
+    display: none;
+  }
+}
+
+/*.suivant{
+  text-align: right;
+}
+
+.precedent{
+  text-align: left;
+}*/
+
+.gallery{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
 
 .arrow_center{
   margin-top: 3%;

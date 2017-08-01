@@ -25,7 +25,16 @@ h1:after {
 
 @media screen and (max-width: 768px){
   h1{
-    visibility: hidden;
+    display: none;
+  }
+  h1::after{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .gallery{
+    display: none;
   }
 }
 
