@@ -25,18 +25,21 @@ h1:after {
 
 @media screen and (max-width: 768px){
   h1{
-    font-size: 60px;
+    visibility: hidden;
   }
 }
 
 .arrow_center{
-  border-top: 1px solid #C6C6C7;
-  border-bottom: solid 1px #C6C6C7;
   margin-top: 3%;
   text-align: center;
 }
 
-.arrow2{
+.block{
+  border-top: 1px solid #C6C6C7;
+  border-bottom: solid 1px #C6C6C7;
+}
+
+.arrow{
   width: 200px;
   transition: all 1s;
 }
